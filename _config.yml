@@ -57,34 +57,45 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: **Tableau**, **Power BI**, **Python** and **SQL**.
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Tableau Visualizations
+        link: https://public.tableau.com/app/profile/pegah.shariati
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  tableau_public
+        #     icon: fab fa-tableau
+        #     url: https://public.tableau.com/app/profile/pegah.shariati
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+          # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          A collection of Tableau visualizations showcasing my data analysis and visualization skills. These projects demonstrate my ability to create interactive, insightful dashboards that communicate complex data effectively.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Walgreens
+        link: https://www.walgreens.com
+        # link_text: boringcompany.com
+        sub_title: Data Analyst
+        caption: March 2025 - Present
+        description: |
+          - Extract, clean and analyze Conversational AI pipeline data leveraging SQL and Python to monitor user-engagement metrics such as call traffics, virtual agent’s success rate, containment and application performance. Ensure end-to-end visibility and accuracy of pipelines by monitoring quality metrics and automated assessments post-deployment. Investigate and correct data anomalies through data ops and live dashboards. 
+          - Develop and maintain automated data integration across different data sources to ensure consistent data availability. Connecting internal and external platforms such as third party analytical services, using REST API, and cloud storage solutions into centralized pipelines using python to enable real-time data ingestions. Design automation scripts to enhance efficient & error-free operational efficiency across analytical and reporting processes.
+          - Design, build and maintain real-time interactive Power BI dashboards to communicate data-driven insights and speech science KPIs enabling executive teams and non-technical stakeholders. Partner with multidisciplinary teams including data science, engineering, product management to identify and fill data gaps, taking analytical initiatives and co-drive product strategy for deep business impact. 
+      
+      - layout: left
         title: Sunnova Energy
         link: www.sunnova.com
         # link_text: boringcompany.com
         sub_title: Data Analyst
-        caption: October 2022 - Present
+        caption: October 2022 - October 2024
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
